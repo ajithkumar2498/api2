@@ -17,7 +17,7 @@ function thirukkuralData(){
       thirukkuralData1.then((data)=>{console.log(data) 
         // console.log(data.kural[0].Line1)
         if(data.kural.value >1330){
-          alert("1330 குறள் எண்ணிற்குள் மட்டும் அச்சிடுக")
+          alert("1330 குறள் மட்டும் தட்டச்சு செய்யவும்")
         }
         let input = document.querySelector('.datas').value;
         let [kural]= data.kural.filter((e)=> e.Number==input)
