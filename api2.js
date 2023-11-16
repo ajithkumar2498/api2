@@ -15,9 +15,24 @@ function thirukkuralData(){
         )
       })
       thirukkuralData1.then((data)=>{console.log(data) 
-        console.log(data.kural[0].Line1)
+        // console.log(data.kural[0].Line1)
+        if(data.kural.value >1330){
+          alert("1330 குறள் எண்ணிற்குள் மட்டும் அச்சிடுக")
+        }
+        let input = document.querySelector('.datas').value;
+        let [kural]= data.kural.filter((e)=> e.Number==input)
+        console.log(kural)
+        let card = document.querySelector('.card-body')
+        card.innerHTML=`<p class="card-text card-head">குறள் விளக்கம்</p>
+        <p class="card-text1" >Line1:${kural.Line1}</p>
+        <p class="card-text2">Line2:${kural.Line2}</p>
+        <p class="card-text3">mk:${kural.mk}</p>
+        <p class="card-text4">mv:${kural.mv}</p>
+        <p class="card-text4">sp:${kural.sp}</p>`
+       
+        
       }).catch((err)=>{console.log(err)})
 }
 
- 
+
   
