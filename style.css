@@ -1,6 +1,6 @@
 body{
    
-    font-size: 25px;
+    font-size: 15px;
 }
 .heading{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -12,13 +12,13 @@ body{
 }
 .card{
     margin-top: 80px;
-    margin-left: 600px;
-    width: 300px;
-    height: 500px;
+    margin-left: 500px;
+    width: 500px;
+    height: 800px;
     border-radius: 5px;
     box-shadow:  3px 2px 3px grey,
     3px 2px 3px rgb(189, 183, 183);
-
+    /* border:1px solid black; */
 }
 .datas{
   width:400px;
@@ -49,17 +49,32 @@ body{
   }
 
   .card-body{
-    padding-left: 100px;
-    padding-top: 250px;
-    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:20px;
+    height: 500px;
+    width:500px;
+    border:1px solid black;
   }
 
   .card-head{
     font-family:  Helvetica;
-  background-color: rgb(33, 152, 77);
-  color: white;
+    background-color: rgb(33, 152, 77);
+    color: white;
     text-align: center;
     font-size: 20px;
     border:1px solid black;
     font-weight: bolder;
+  }
+
+  .card-img-top{
+    height: 200px;
+    align-items: center;
+  }
+
+  .card-text{
+    justify-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 200px;
   }
