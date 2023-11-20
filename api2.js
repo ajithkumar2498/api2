@@ -19,10 +19,11 @@ function thirukkuralData(){
         
         let input = document.querySelector('.datas').value;
         let [kural]= data.kural.filter((e)=> e.Number==input)
-        if(input.value >1330){
+        var no=1330
+        if(input > no){
           alert("1330 குறள் மட்டும் தட்டச்சு செய்யவும்")
-        }
-        console.log(kural)
+        }else{
+          console.log(kural)
         let card = document.querySelector('.card-body')
         card.innerHTML=`<p class="card-text card-head">குறள் விளக்கம்</p>
         <p class="card-text1" >Line1:${kural.Line1}</p>
@@ -30,6 +31,8 @@ function thirukkuralData(){
         <p class="card-text3">mk:${kural.mk}</p>
         <p class="card-text4">mv:${kural.mv}</p>
         <p class="card-text4">sp:${kural.sp}</p>`
+        }
+        
        
         
       }).catch((err)=>{console.log(err)})
