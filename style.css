@@ -6,7 +6,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     align-content: center;
     font-weight: bolder;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left:600px
 
 }
@@ -15,18 +15,19 @@ body{
     margin-left: 400px;
     max-width: fit-content;
     width: 900px;
-    height: 700px;
+    height: 780px;
     border-radius: 5px;
     box-shadow:  3px 2px 3px grey,
     3px 2px 3px rgb(189, 183, 183);
     border:1px solid black;
+   
 }
 .datas{
   width:400px;
   height:50px;
   border-radius: 5px;
   margin-left:450px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .show{
@@ -63,10 +64,15 @@ body{
     background-color: rgb(33, 152, 77);
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     border-radius: 4px;
     font-weight: bolder;
     margin-left: 180px;
+    padding :8px;
+    justify-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 200px;
   }
 
   .card-img-top{
@@ -74,22 +80,21 @@ body{
     align-items: center;
     max-width: fit-content;
     margin-left: 230px;
-    margin-top: 20px;
-  }
-
-  .card-text{
-    
-    justify-items: center;
-    justify-content: center;
-    height: 30px;
-    width: 200px;
+    margin-top: 10px;
   }
 
   .card-text1, .card-text2,.card-text3,.card-text4,.card-text5{
-    max-width: fit-content;
+    /* max-width: fit-content; */
     font-size: 15px;
-    width: 500px;
-    margin-left: 50px;
+    width: 550px;
+    margin-left: 20px;
     font-family: latha;
+    border-bottom: 1px solid black ;
+    padding:3px;
+    box-shadow: 1px 2px 1px grey;
+    border-radius: 5px;
+    font-weight: bolder;
+    display: block;
+    
   }
   
