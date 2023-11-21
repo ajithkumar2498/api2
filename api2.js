@@ -22,9 +22,13 @@ function thirukkuralData(){
         var no=1330
         if(input > no){
           alert("1330 குறள் மட்டும் தட்டச்சு செய்யவும்")
+          let card = document.querySelector('.card-body')
+          card.innerText=' ';
+         
         }else{
           console.log(kural)
         let card = document.querySelector('.card-body')
+        input.innerText= null;
         card.innerHTML=`<p class="card-text card-head">குறள் விளக்கம்</p>
         <p class="card-text1" >Line1:${kural.Line1}</p>
         <p class="card-text2">Line2:${kural.Line2}</p>
