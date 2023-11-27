@@ -18,7 +18,7 @@ function MutualfundData(){
         
         let input = document.querySelector('.datas').value;
         var no=44594
-        if(input > no){
+        if(input > no || input < 0){
           alert("Enter Number Between 44594")
           let card = document.querySelector('.card-body')
           card.innerText=' ';
