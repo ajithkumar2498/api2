@@ -3,23 +3,30 @@ body{
     font-size: 15px;
 }
 .heading{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    align-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
     font-weight: bolder;
     margin-top: 30px;
     margin-left:600px
 
+}
+.heading1{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-items: center;
+  font-weight: bolder;
+  margin-top: 30px;
+    margin-left:550px;
 }
 .card{
     margin-top: 50px;
     margin-left: 400px;
     max-width: fit-content;
     width: 900px;
-    height: 780px;
+    height: 500px;
     border-radius: 5px;
     box-shadow:  3px 2px 3px grey,
-    3px 2px 3px rgb(189, 183, 183);
-    border:1px solid black;
+    3px 2px 3px rgb(189, 183, 183),4px 2px 4px rgba(55, 53, 27, 0.267);
+    
    
 }
 .datas{
@@ -54,8 +61,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     padding-top:20px;
-    height: 500px;
-    width:5000px;
+    height: 30px;
     /* border:1px solid black; */
   }
 
@@ -67,34 +73,34 @@ body{
     font-size: 22px;
     border-radius: 4px;
     font-weight: bolder;
-    margin-left: 180px;
+    margin-left: 140px;
     padding :8px;
     justify-items: center;
     justify-content: center;
     height: 30px;
-    width: 200px;
+    width: 300px;
   }
 
   .card-img-top{
     height: 200px;
     align-items: center;
     max-width: fit-content;
-    margin-left: 230px;
+    margin-left: 145px;
     margin-top: 10px;
   }
 
-  .card-text1, .card-text2,.card-text3,.card-text4,.card-text5{
+  .card-text1, .card-text2{
     /* max-width: fit-content; */
-    font-size: 15px;
+    font-size: 20px;
     width: 550px;
     margin-left: 20px;
-    font-family: latha;
+    font-family: sans-serif;
     border-bottom: 1px solid black ;
     padding:3px;
     box-shadow: 1px 2px 1px grey;
     border-radius: 5px;
     font-weight: bolder;
     display: block;
-    
+    top:25px;
   }
   
