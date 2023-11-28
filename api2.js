@@ -26,7 +26,7 @@ function MutualfundData(){
         }else{
         
         let card = document.querySelector('.card')
-        input.innerText= input.null;
+        input.innerText= "  ";
         card.innerHTML=`
         
         <img src="SIP-Scheme-OPTION-2.jpg" class="card-img-top" alt="Mutual Fund">
